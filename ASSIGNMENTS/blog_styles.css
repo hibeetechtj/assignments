@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-color: rgb(240, 228, 228);
+}
+.blogpost_img{
+    text-align: center;
+    
+}
+h1{
+    /* not displaying proper if inline-block is used
+    display: inline-block; */
+    background-color: deepskyblue;
+    font-size: 50px;
+    font-weight: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 5px;
+}
+p{
+    margin: -1px 0 15px 20px;
+    padding: 5px;
+    text-align: justify;
+    color: rgb(31, 117, 23);
+    font-family: sans-serif;
+}
+#container{
+    margin: 5px;
+    padding: 3px;
+}  
+img{
+    border-radius: 50%;
+}
+/* btw the 2 styles👇, which one is better */
+h1,h3{
+    color: rgb(23, 56, 117);
+    font-family: cursive;
+}
+
+.heading{
+    color: rgb(23, 56, 117); 
+    font-family: cursive;
+}
+   
